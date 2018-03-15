@@ -46,6 +46,6 @@ for command in commands:
 	stdin , stdout, stderr = c.exec_command(command)
 	print(stdout.read().decode())
 	print( "Errors")
-	print(stderr.read())
+	print(stderr.read().decode())
 c.close()
 
