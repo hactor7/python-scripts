@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # pip install paramiko
 # check for help with python paramiko_example.py --help
-# python remote-command-executor.py  /home/delhivery/.ssh/done-key.pem  52.70.172.225 ubuntu 'sudo netstat -tunlp'
+# python remote-command-executor.py  /home/user/.ssh/done-key.pem  52.70.172.225 ubuntu 'sudo netstat -tunlp'
 # Or crate a alias first
 # alias runc='python /path/to/remote-command-executor.py'
 # 
